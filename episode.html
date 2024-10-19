@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Episode</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo" onclick="window.location.href='index.html'">Anime Streaming</div>
+        <div class="user-icon">👤</div>
+    </header>
+    <main>
+        <section id="episodeDetails">
+            <h1>Episode Title</h1>
+            <video id="episodeVideo" controls>
+                <source src="episode.mp4" type="video/mp4"> <!-- Replace with actual episode source -->
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Community</a>
+        </div>
+        <p>© 2024 Anime Streaming. All Rights Reserved.</p>
+    </footer>
+    <script>
+        // Get the anime ID from the URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const animeId = urlParams.get('anime');
+        const episodeVideo = document.getElementById('episodeVideo');
+
+        // Set the video source based on animeId (add logic here to fetch actual episodes)
+        episodeVideo.src = `path/to/your/episodes/episode${animeId}.mp4`; // Update path as needed
+    </script>
+</body>
+</html>
