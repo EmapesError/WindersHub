@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Streaming</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo" onclick="window.location.href='index.html'">Anime Streaming</div>
+        <input type="text" class="search-bar" placeholder="Search for anime..." oninput="filterAnime()">
+        <div class="user-icon">👤</div>
+    </header>
+    <main>
+        <section class="hero-section">
+            <h1>Watch Your Favorite Anime!</h1>
+            <p>Explore a vast library of anime titles and enjoy seamless streaming.</p>
+        </section>
+        <section class="anime-list" id="animeList">
+            <h1>Popular Anime</h1>
+            <div class="episodes-container">
+                <!-- Anime thumbnails will be dynamically inserted here -->
+            </div>
+        </section>
+        <footer>
+            <div>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Community</a>
+            </div>
+            <p>© 2024 Anime Streaming. All Rights Reserved.</p>
+        </footer>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
