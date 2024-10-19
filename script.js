@@ -1,5 +1,5 @@
 const animeList = [
-    { id: 1, title: 'Anime 1', img: 'https://via.placeholder.com/150x225.png?text=Anime+1' },
+    { id: 1, title: 'Anime 1', img: '0c06b2b293ba0dbb1cd195b17755b622.jpg' },
     { id: 2, title: 'Anime 2', img: 'https://via.placeholder.com/150x225.png?text=Anime+2' },
     { id: 3, title: 'Anime 3', img: 'https://via.placeholder.com/150x225.png?text=Anime+3' },
     { id: 4, title: 'Anime 4', img: 'https://via.placeholder.com/150x225.png?text=Anime+4' },
